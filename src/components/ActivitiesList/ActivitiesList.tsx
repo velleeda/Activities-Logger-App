@@ -8,8 +8,9 @@ export function Activity(props: any) {
   const { getActivity } = useCRUD();
 
   const handleDeleteActivity = async (activityId: number) => {
-    await api.delete(`activities/${activityId}`);
-
+    if (window.confirm("Are you sure you want to delete this log?")) {
+      await api.delete(`activities/${activityId}`);
+    }
     getActivity();
   };
 
