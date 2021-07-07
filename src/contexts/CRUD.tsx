@@ -13,9 +13,7 @@ export const useCRUD = () => {
 
     if (res && res.data) {
       setActivity(res.data);
-    }
 
-    if (res && res.data) {
       const a: any[] = [];
       res.data.map((i: any) => {
         a.push(parseInt(i.time));
