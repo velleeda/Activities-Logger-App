@@ -22,7 +22,7 @@ $ cd Activities-Logger-App
 # Install Dependencies
 $ yarn install
 
-# Run Web Server
+# Run Web Site
 $ yarn start
 
 # Run Server

@@ -9,7 +9,7 @@ function App() {
   const [storeTime, setStoreTime] = useState("");
   const [storeType, setStoreType] = useState("");
   const [storeDate, setStoreDate] = useState("");
-  const { totalTime, getActivity, activity, setTotalTime } = useCRUD();
+  const { totalTime, getActivity, activity } = useCRUD();
 
   const noActivity = !activity || (activity && activity.length === 0);
 
@@ -27,8 +27,6 @@ function App() {
       getActivity();
     }
   };
-
-
 
   return (
     <div className="container">
