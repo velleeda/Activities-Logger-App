@@ -6,7 +6,7 @@
 - [TypeScript](https://www.typescriptlang.org/)
 - [Sass](https://sass-lang.com/)
 
-I decided to use React because I'm more familiar with it and it's the framework I've studied so far, I'm trying to get used with typescript that's why I used it and I'm used to use Sass in my projects but I'm also familiar with styled-components.
+I decided to use React because I'm more familiar with it and it's the framework I've studied so far, I'm trying to get used with TypeScript that's why I used it, I'm used to use Sass in my projects, but I'm also familiar with styled-components.
 
 ## How to run
 
